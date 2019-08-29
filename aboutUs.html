@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta content="uuser-scalable=no"/>
+    <title>海马减压</title>
+    <link rel="icon" href="./images/logo.png" type="image/x-icon"/>
+    
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h3{
+        font-size: 50px;
+        letter-spacing: 6px;
+        margin-bottom: 50px;
+      }
+      
+      header {
+        min-width: 1200px;
+        height: 120px;
+      }
+      header>div{
+        width: 1200px;
+        margin: 0 auto;
+      }
+      header>div>div {
+        display: inline-block;
+        line-height: 120px;
+      }
+      header>div>div>img {
+        height: 50px;
+        vertical-align:middle;
+      }
+      header>div>img {
+        margin-left: 100px;
+        height: 20px;
+        vertical-align:middle;
+      }
+      
+      /*      内容部分*/
+      .index_body{
+        min-width: 1200px;
+        overflow: hidden;
+        position: relative;
+      }
+      .index_body>div{
+        width:1230px; 
+        height: 963px; 
+        overflow:hidden; 
+        margin: 0 auto;
+        position: relative;
+      }
+      
+      .index_body>div.bg1 {
+        min-width: 1920px;
+        width: 100%;
+        height: 1088px;
+        position: absolute;
+        background: #ffffff;
+        top:0;
+        z-index: 20;
+        overflow: hidden;
+      }  
+      .index_body1 .Phone1 {
+        position: absolute;
+        right: 0;
+        top: 576px;
+        width: 459px;
+        height: 391px;
+      }
+      .index_body1 .Phone1 img {
+        width: 100%;
+        height: 100%;
+      }
+      .index_body>div.bg1 img{
+          width: 100%;
+          height: 100%;
+      }
+      
+      .index_body1>div>div{
+        width: 1200px;
+        position: absolute;
+        top: 160px;
+/*        left: 0px;*/
+        margin: 0 auto;
+        z-index: 999;
+        text-align: center;
+      }
+      .index_body>div>div.bg_1{
+        position: absolute;
+        width: 1920px;
+        height: 963px;
+        background: #ffffff;
+        left: 50%;
+        margin-left: -960px;
+        top: 0;
+        z-index: 20;
+      }
+      .index_body>div>div.bg_1 img {
+        width: 100%;
+        height: 100%;
+      }
+      
+      .index_body1>div>div>img{
+        height: 120px;
+      }
+      .index_body1>div>div>p{
+        margin-top: 90px;
+        margin-bottom: 80px;
+        text-align: left;
+        text-indent: 2em;
+        font-size: 26px;
+        color: #4A4A4A;
+        letter-spacing: 2px;
+        line-height: 56px;
+      }
+      .index_body1>div>div>span{
+        display: block;
+        text-align: left;
+        font-size: 22px;
+        color: #4A4A4A;
+        margin-bottom: 18px;
+      }
+      
+      footer>a {
+        margin: 20px 0;
+        display: block;
+        text-decoration: none;
+        color: gray;
+        text-align: center;
+      }
+      
+      .index_body6 >div,.bg_5{
+          height: 700px !important;
+      }
+      
+      a {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div>
+          <img src="./images/logo_2.png">
+        </div>
+        <img id="index" src="./images/首页.png">
+        <img id="talk" src="./images/关于我们_1.png">
+      </div>
+    </header>
+    <div class="index_body index_body1">
+      <div>
+        <div>
+          <img src="images/logo_1.png">
+          <p>海马减压是由内江天海科技有限公司倾心打造的一款帮助用户舒缓情绪，释放压力的产品。APP中有多样化场景音乐，带来沉浸式感官享受。同时，专业的人声引导，为你提供最佳的压力舒缓与释放方案。</p>
+          <span>官方邮箱：yunying@himaemotion.com</span>
+          <span>官方微信公众号：海马减压</span>
+        </div>
+        <div class="Phone1"><img src="./images/plant.png"></div>
+      </div>
+      <div class="bg1"><img src="./images/bg_img7.png"></div>
+    </div>
+    <div class="index_body index_body6">
+        <div>
+             <div class="bg_1 bg_5"><img src="./images/bg_img6.png"></div>
+        </div>
+    </div>
+    <footer style="width:1200px;margin: 0 auto;border-top:2px solid #f3f3f3;">
+      <a href="http://www.beian.miit.gov.cn" target="_blank">蜀ICP备18035258号-2</a>
+    </footer>
+  </body>
+  
+  <script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1277914911&web_id=1277914911"></script>
+  
+  <script type="text/javascript">
+    
+    document.getElementById('index').onclick = function () {
+      window.location.href = "index.html"
+    }
+    document.getElementById('talk').onclick = function () {
+      window.location.href = "aboutUs.html"
+    }
+  </script>
+</html>
